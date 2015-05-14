@@ -36,7 +36,7 @@ def desvio(lista, media):
     suma = 0.0
 
     for i in lista:
-        suma += (i - media)**2
+        suma += (i - media) ** 2
 
     return suma/float(len(lista))
 
